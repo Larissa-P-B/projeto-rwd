@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    padding: 10px;
+    background-color: SeaGreen;
+    text-align: center;
+
+    a{
+        color: lawngreen;
+        align-items: center;
+        text-decoration: none;
+        font-size: 25px;
+        font-style: italic;
+        padding: 15px;
+    }
+    
+
+}
+
+.home{
+   
+    padding: 10px;
+    background-color: PaleGreen;
+
+    text-align: center;
+
+    h1{
+        font-size: 65px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: oblique;
+        color: lawngreen;
+        
+        
+    }
+    h2{
+        color: green;
+        font-size: 35px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: oblique;
+
+    }
+    a Img{
+        border: 5px solid darkgreen;
+        border-radius: 10px;
+    }
+
+}
+.anime{
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    align-items: center;
+
+    h1{
+        font-size: 65px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: oblique;
+        color: orangered;
+        padding: 10px;
+       
+    }
+
+    p{
+        font-size: 35px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: oblique;
+        color: orangered;
+        padding: 10px;
+
+    }
+
+    img{
+        border: 5px solid orangered;
+        border-radius: 10px;
+    }
+
+}
+
+.marvel{
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    align-items: center;
+    
+   
+
+    h1{
+        font-size: 65px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: oblique;
+        color: red;
+        padding: 10px;
+       
+    }
+
+    p{
+        font-size: 35px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: oblique;
+        color: red;
+        padding: 10px;
+    }
+    img{
+        border: 5px solid red;
+        border-radius: 10px;
+    }
+
+    .tabela{
+        background-color: lightcoral;
+        color: darkred;
+        width: 500px;
+        border: 5px solid red;
+        display: flexbox;
+        text-align: center;
+        margin: 0 auto;
+
+
+        h1{
+         
+            font-size: 45px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: oblique;
+            color: darkred;
+            padding: 10px;
+        }
+        
+        
+        table{
+            width: auto;
+            
+           
+            text-align: center;
+            
+            
+            thead tr th{
+                
+                border: 3px solid red;
+                font-size: 35px;
+            }
+            tbody tr td{
+                font-size: 30px;
+                border: 3px solid red;
+            }
+
+            
+        }
+
+      
+    }
+}
+
+.dc{
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    align-items: center;
+
+    h1{
+        font-size: 65px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: oblique;
+        color: blue;
+        padding: 10px;
+    }
+
+    p{
+        color: blue;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: oblique;
+        padding: 10px;
+        font-size: 45px;
+    }
+
+    img{
+        border: 5px solid blue;
+        border-radius: 10px;
+    }
+}
+
+.formulario{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    background-color: palegreen;
+    min-height: 100vh;
+    padding: 20px;
+
+    h1{
+        font-size: 40px;
+        color: darkgreen;
+        border: 5px solid lawngreen;
+        text-align: center;
+    }
+
+    form{
+        width: 600px;
+        margin: 0 auto;
+        color: darkgreen;
+    }
+
+    fieldset{
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 5px solid ;
+        border-color:  lawngreen;
+    }
+
+    legend{
+        font-size: 30px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    label{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    input{
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+        outline: darkolivegreen;
+    }
+
+    button{
+        padding: 5px 60px;
+        border-radius: 5px;
+        border: none;
+        background-color: limegreen;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: oblique;
+        color: darkgreen;
+
+    }
+
+
+
+    
+    
+}
+
+.painel{
+    width: 100%;
+    background-color: chartreuse;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+    .p2{
+        padding: 10px;
+        border: 5px solid green;
+        width: 400px;
+        margin: 10px;
+        background-color: darkgreen;
+        border-radius: 10px;
+        
+        p{
+            margin-bottom:5px ;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: oblique;
+            font-size: 20px;
+            color: lightgreen;
+        }
+    
+    }
+}
+
+.rede{
+    text-align: right;
+    background-color: lightcyan;
+    border: 5px solid green;
+    h1{
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: oblique;
+        text-align: right;
+        padding: 20px;
+        color: green;
+       
+    }
+
+    a{
+        padding: 10px;
+
+        img{
+            border: 7px solid green;
+            border-radius: 10px;
+        }
+        
+       
+        
+
+       
+       
+
+        
+    }
+}
+
+
+.sn{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+   
+
+    
+    h1{
+        font-size: 45px;
+        color: green;
+        border: 5px solid lime;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    h2{
+        color: darkgreen;
+        font-size: 25;
+        border: 5px solid lime;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+
+}
+
+footer{
+    background-color: darkgreen;
+    text-align: center;
+    h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: lawngreen;
+    }
+
+    p{
+        padding: 10px;
+    }
+}
